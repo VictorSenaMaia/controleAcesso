@@ -1,0 +1,34 @@
+
+<html lang="pt-br">
+<head>
+    <title> Registro</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+<center>
+
+<h1>Registrar usuario </h1>
+<form action="cadastrar_excluir.php" method="POST">
+	<input type="text" placeholder="Nome" name="nome">
+	<br><br>
+	<input type="text" placeholder="Email do Usuario" name="email">
+	<br><br>
+	<input type="text" placeholder="ID do cartao" name="codigo">
+	<br><br>
+	<input type="text" placeholder="ID do cartao novamente" name="codigoRep">
+	<br><br>
+	<h3>Cadastrar </h3>
+	<input type="checkbox" name="op_cadastrar" value="1">
+	<h3>Excluir</h3>
+	<input type="checkbox" name="op_excluir" value="2">
+        <br><br>
+        <button type= "submit">Confirmar
+	</button>
+
+</form>
+</center>
+
+</body>
+
+</html>
